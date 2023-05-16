@@ -1,0 +1,129 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.wallets ul,
+.transactions ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wallets li,
+.transactions li {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.wallets .button-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.actions {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:active, .btn-primary.active {
+    background-color: rgb(43, 188, 255) !important;
+}
+
+.btn-link {
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.logout {
+    text-align: right;
+}
+
+.btn-logout {
+    background-color: #4dafff;
+    border: none;
+    border-radius: 5px;
+    color: #333333;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+
+.transactions {
+    margin-top: 30px;
+}
+
+.back-btn {
+    position: absolute;
+    top: 10px;
+    right: 230px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logout-btn {
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #555;
+}
+
+.back-btn:hover {
+    background-color: #555;
+}
